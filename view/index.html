@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Deepak.com</title>
+    <link rel="shortcut icon" type="image/jpg" href="./drawables/Portfolio Deepak/Glassmorhism favicon.png"/>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body id="body">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <!-- Iconify Scripts -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+    <!-- Fonts Include -->
+
+    <!-- Abhay Libre -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!--Arima Madurai -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Poppins  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Signature Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Let the code begin😋 -->
+
+ 
+
+
+    <nav class="navbar" id="navbar">
+
+      <div class="navbar__inner">
+          <div class="navbar__hamburger" id="hamburger">
+              <input type="checkbox" class="navbar__checkbox" for = "1">
+              <div class="navbar__icon" id="1">&nbsp;</div>
+          </div>
+  
+          <div class="navbar__logo-box">
+             <p class="logo">
+               Deepak Gupta
+             </p>
+          </div>
+
+
+  
+          <ul class="navbar__list">
+              <li class="navbar__item">
+                  <a href="#" class="button navbar__link">Home</a>
+              </li>
+              <li class="navbar__item">
+                  <a href="#services" class="button navbar__link">Services</a>
+              </li>
+              <li class="navbar__item">
+                  <a href="#about" class="button navbar__link">About</a>
+              </li>
+              <li class="navbar__item">
+                  <a href="#contact__form" class="button navbar__link">Contact</a>
+              </li>
+              <li class="navbar__item">
+                  <a href="#floatingForm" class="btn btn--primary button">Book a Session</a>
+              </li>
+              
+              <li class="navbar__item-special ">
+                <div class="terms" id="terms">
+                  <p class="caption terms__text">T&C</p>
+                </div>
+              </li>
+
+              
+          </ul>
+
+          
+      
+      </div>
+
+  
+      <div class="navbar__inner--mobile" id="nav">
+          <ul class="navbar__list--mobile hidden" id="navList">
+              <li class="navbar__item--mobile" id="navItem1">
+                  <a href="#" class="button navbar__link--mobile hidden" id="specialListItem1">Home</a>
+              </li>
+              <li class="navbar__item--mobile" id ="navItem2">
+                 <a href="#services" class="button navbar__link--mobile hidden" id="specialListItem2">Services</a>
+              </li>
+              <li class="navbar__item--mobile" id="navItem3">
+                  <a href="#about" class="button navbar__link--mobile hidden" id="specialListItem3">About</a>
+              </li>
+              <li class="navbar__item--mobile">
+                  <a href="#contact__form" class="button navbar__link--mobile hidden" id="specialListItem4">Contact</a>
+              </li>
+              <li class="navbar__item--mobile">
+                <a href="#floatingForm" class="btn btn--primary button u-alignself-center hidden" id="specialListItem5">Book a Free Session</a>
+              </li>
+      </div>
+  </nav>
+
+  <!-- Back to Top-btn 😉 -->
+  <div class="back-to-top">
+    <div class="back-to-top__inner">
+        <a href="https://api.whatsapp.com/send?phone=918400369647&" target='_blank'>
+          <img src="./drawables/Portfolio Deepak/pngegg.png" alt="Whatsapp icon image" class="back-to-top__img">
+      </a>
+    </div>
+  </div>
+
+  <!--Terms & conditions POPUP -->
+<div class="overlay overlay--terms hidden" id="overlayTerms">
+  &nbsp;
+</div>
+
+  <div class="popup hidden" id="popup">
+    <div class="popup__wrapper">
+      <!-- <div class="popup__close-btn">
+        <p class="h3 popup__times" id="popupClose">&times;</p>
+      </div> -->
+
+      <h4 class="h4 popup__heading">Terms & Conditions</h4>
+  
+      <p class="body1 banner-text popup__update">
+        Last updated: &nbsp; <span class="u-text-color-blue"> Aug 22, 2021</span>
+      </p>
+
+      <p class="body2 popup__conditions">
+        1) Only Home visits are available.. here <br><br>
+        2)  5 Days physiotherapy sessions are totally free of cost but you must pay conveyance charge..<br> <br>
+        3) Conveyance charge is only 100/- Rs per day.. <br><br>
+        4) After 5 days free session according to your decision that you will continue or not, if yes then  physiotherapist will make   your personal performa or treatment...<br><br>
+        5) 24*7 Hours Consultancy services are totally free of cost through call or whatsapp.. <br><br>
+      </p>
+
+      <div class="popup__btn-box">
+        <a href="#" class="button btn popup__decline">Decline</a>
+        <a href="#" class="button btn popup__accept">Accept</a>
+      </div>
+
+      
+    </div>
+
+  </div>
+
+
+
+  <!-- Thankyou Popup Screen😊 -->
+
+  <!-- POPUP -->
+<div class="overlay hidden overlay--thanks" id="overlay">
+  &nbsp;
+</div>
+
+  <div class="popup popup--thankyou hidden" id="popupThanks">
+    <div class="popup__wrapper">
+      <!-- <div class="popup__close-btn">
+        <p class="h3 popup__times" id="popupClose">&times;</p>
+      </div> -->
+
+      <h4 class="h4 h4--special popup__heading">Your response Sumbitted</h4>
+  
+      <!-- <p class="body1 banner-text popup__update">
+        Last updated: &nbsp; <span class="u-text-color-blue"> Aug 22, 2021</span>
+      </p> -->
+
+      <p class="body2 popup__conditions u-margin-top-4 u-text-align-center">
+        We will contact you as soon as possible..
+        You can connect to our social media pages.<br> Please help us improve your experience..Please fill a 5 minutes feedback form so that we can serve you better
+      </p>
+
+      <!-- <h4 class="h5 popup__sub-heading">Your voice matters</h4> -->
+
+      <div class="popup__btn-box">
+        <a class="button btn popup__decline" id="closePopup">Close</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScdIXx3J18Og0xCL5RZIVdLIOJrPM4Oc3GBnXxvUoWewokilQ/viewform" target="_blank" class="button btn popup__accept" id="fillFeedback">Fill feedback form</a>
+      </div>
+
+      
+    </div>
+
+  </div>
+
+
+
+  <!-- Importance Popup Screen😗 -->
+
+   <div class="overlay overlay--importance" id="overlay">
+    &nbsp;
+  </div>
+  
+    <div class="popup popup--importance " id="popupImportance">
+      <div class="popup__wrapper">
+        <!-- <div class="popup__close-btn">
+          <p class="h3 popup__times" id="popupClose">&times;</p>
+        </div> -->
+  
+        <h4 class="h4 popup__heading">Benefits of Physiotherapy at Home</h4>
+  
+        <p class="body2 popup__conditions">
+          1) Convenience of being at home with the family and loved ones.<br><br>
+          2) Personalized care with customized plans.<br> <br>
+          3) Minimal mobility issues due to reduced ambulation/movement.<br><br>
+          4) Time management.<br><br>
+          5) Affordable care packages suitable for every type of patient.<br>
+        </p>
+  
+        <div class="popup__btn-box">
+          <a href="" class="button btn popup__close">Close</a>
+        </div>
+  
+        
+      </div>
+  
+    </div> -->
+   
+
+
+    <section class="banner u-section-padding">
+      <div class="banner__inner">
+        <div class="banner__left">
+          <h3 class="h3 banner__heading">
+            Medicines add years to life, We
+            <span class="u-text-color-gradient"> add life </span>to those years
+          </h3>
+
+          <p class="banner-text u-margin-top-small banner__sub-heading">
+            Hey there, I am Deepak Gupta a Physiotherapist from
+            <span class="u-text-color-dark">India</span> & its my passion to
+            make people genuinely happy & fit with my knowledge. Please let our
+            <span class="u-text-color-blue"> magic hands </span>create something
+            wonderful for you..
+          </p>
+
+          <div class="banner__btn-container u-margin-top-small">
+            <a href="#floatingForm" class="button btn btn--primary">Book Free Session</a>
+
+            <a href="#features" class="button btn btn--ghost u-margin-left-small"
+              >Learn more</a
+            >
+          </div>
+        </div>
+
+          <img
+          src="./drawables/Portfolio Deepak/final hero2.png"
+          alt="Hero Image"
+          class="banner__img"
+        />
+      </div>
+    </section>
+
+    
+
+    <section class="waves">
+      <img
+        src="./drawables/Portfolio Deepak/Wave Vector.png"
+        alt="wave Vector"
+        class="waves__vector"
+      />
+    </section>
+
+    <section class="floating-form u-section-padding" id="floatingForm">
+      <div class="floating-form__box">
+        <div class="floating-form__wrapper">
+          <div class="floating-form__content-container">
+            <div class="floating-form__icon-name">
+              <div class="floating-form__icon-box">
+                <span class="iconify" data-icon="carbon:user-avatar"></span>
+              </div>
+
+              <h6 class="h6 floating-form__label">Patient name</h6>
+            </div>
+
+            <input
+              type="text"
+              class="floating-form__input u-margin-top-small"
+              placeholder="Enter your name"
+              required
+              id="namee"
+            />
+          </div>
+
+          <div class="floating-form__content-container">
+            <div class="floating-form__icon-name">
+              <div class="floating-form__icon-box">
+                <span class="iconify" data-icon="akar-icons:phone"></span>
+              </div>
+
+              <h6 class="h6 floating-form__label">Contact</h6>
+            </div>
+
+            <input
+              type="text"
+              class="floating-form__input u-margin-top-small"
+              placeholder="Enter your Contact"
+              id="contactt"
+              required
+            />
+          </div>
+
+          <div class="floating-form__content-container">
+            <div class="floating-form__icon-name">
+              <div class="floating-form__icon-box">
+                <span class="iconify" data-icon="cil:location-pin"></span>
+              </div>
+
+              <h6 class="h6 floating-form__label">Location</h6>
+            </div>
+
+            <input
+              type="text"
+              class="floating-form__input u-margin-top-small"
+              placeholder="Enter your Location"
+              required
+              id="locationn"
+            />
+          </div>
+        </div>
+
+        <a class="button btn btn--primary floating-form__cta" id="bookSession1"
+          >Book my Free Session</a
+        >
+      </div>
+    </section>
+
+    <section class="services u-section-padding u-change-bg-color" id="services">
+      <div class="services__inner">
+        <h4 class="h4 section-heading">Services</h4>
+
+        <div class="services__wrapper">
+          <div class="services-card services-card--1">
+            <div class="services-card__img-box">
+              <img
+                src="./drawables/Portfolio Deepak/Brain (1).png"
+                alt="Card Image"
+                class="services-card__img"
+              />
+            </div>
+
+            <h6 class="h6 services-card__title">Neurogical Conditions</h6>
+
+            <p class="body2 services-card__text hidden">
+              Lorem ipsum neurological conditions Lorem ipsum neurological
+              conditions Lorem ipsum neurological conditions Lorem ipsum
+              neurological conditions
+            </p>
+
+            <div class="available">
+              <div class="available--left">
+                <p class="caption available__text">&#10003; &nbsp;Manual Therapy</p>
+                <p class="caption available__text">&#10003; &nbsp;Electro Therapy</p>
+                <p class="caption available__text">&#10003; &nbsp;Massage Therapy</p>
+              </div>
+              
+              <div class="available--right">
+                <p class="caption available__text">&#10003; &nbsp;Soft tissue Moblisation </p>
+                <p class="caption available__text">&#10003; &nbsp;Muscle energy Techniques</p>
+                <p class="caption available__text">&#10003; &nbsp;Muscle Testing</p>
+              </div>
+            </div>
+
+            <!-- <a href="#" class="button btn btn--primary available__cta">Book now</a> -->
+          </div>
+          
+
+          <div class="services-card services-card--2">
+            <div class="services-card__img-box">
+              <img
+                src="./drawables/Portfolio Deepak/Bone (1).png"
+                alt="Card Image"
+                class="services-card__img"
+              />
+            </div>
+
+            <h6 class="h6 services-card__title">Orthopaedic Conditions</h6>
+
+            <p class="body2 services-card__text hidden">
+              Lorem ipsum neurological conditions Lorem ipsum neurological
+              conditions Lorem ipsum neurological conditions Lorem ipsum
+              neurological conditions
+            </p>
+
+            <div class="available">
+              <div class="available--left">
+                <p class="caption available__text">&#10003; &nbsp;Manual Therapy</p>
+                <p class="caption available__text">&#10003; &nbsp;Electro Therapy</p>
+                <p class="caption available__text">&#10003; &nbsp;Soft tissue Moblisation </p>
+              </div>
+              
+              <div class="available--right">
+                <p class="caption available__text">&#10003; &nbsp;Muscle energy Techniques</p>
+                <p class="caption available__text">&#10003; &nbsp;Manual Muscle Testing</p>
+                <p class="caption available__text">&#10003; &nbsp;Massage Therapy</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="services-card services-card--3">
+            <div class="services-card__img-box">
+              <img
+                src="./drawables/Portfolio Deepak/Pregnant2.png"
+                alt="Card Image"
+                class="services-card__img"
+              />
+            </div>
+
+            <h6 class="h6 services-card__title">Obstetric Conditions</h6>
+
+            <p class="body2 services-card__text hidden">
+              Lorem ipsum neurological conditions Lorem ipsum neurological
+              conditions Lorem ipsum neurological conditions Lorem ipsum
+              neurological conditions
+            </p>
+
+            <div class="available">
+              <div class="available--left">
+                <p class="caption available__text">&#10003; &nbsp;Manual Therapy</p>
+                <p class="caption available__text">&#10003; &nbsp; Electro Therapy</p>
+                <p class="caption available__text">&#10003; &nbsp;Soft tissue Moblisation </p>
+              </div>
+              
+              <div class="available--right">
+                <p class="caption available__text">&#10003; &nbsp;Muscle energy Techniques</p>
+                <p class="caption available__text">&#10003; &nbsp;Manual Muscle Testing</p>
+                <p class="caption available__text">&#10003; &nbsp;Massage Therapy</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features u-section-padding" id="features">
+      <div class="features__inner">
+        <h4 class="h4 section-heading">Features</h4>
+
+        <div class="features__wrapper">
+          <div class="features__container-1">
+            <div class="features-card">
+              <div class="features-card__inner">
+                <h6 class="h6 features-card__text">24x7 Call Support</h6>
+              </div>
+            </div>
+
+            <!-- Card-2 -->
+            <div class="features-card u-margin-top-8">
+              <div class="features-card__inner">
+                <h6 class="h6 features-card__text">Health & Nutrition</h6>
+              </div>
+            </div>
+
+            <!-- Card-3 -->
+            <div class="features-card u-margin-top-8">
+              <div class="features-card__inner">
+                <h6 class="h6 features-card__text">Pathological tests</h6>
+              </div>
+            </div>
+          </div>
+
+          <img
+            src="./drawables/Portfolio Deepak/Feature99999.png"
+            alt="Hero img"
+            class="features__img"
+          />
+
+          <div class="features__container-1">
+            <div class="features-card">
+              <div class="features-card__inner">
+                <h6 class="h6 features-card__text">Free 5 Days Session</h6>
+              </div>
+            </div>
+
+            <!-- Card-2 -->
+            <div class="features-card u-margin-top-8">
+              <div class="features-card__inner">
+                <h6 class="h6 features-card__text">Handholding Support</h6>
+              </div>
+            </div>
+
+            <!-- Card-3 -->
+            <div class="features-card u-margin-top-8">
+              <div class="features-card__inner">
+                <h6 class="h6 features-card__text">Healthy lifestyle</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about u-change-bg-color u-section-padding" id="about">
+      <div class="about__inner">
+        <h4 class="h4 section-heading">About</h4>
+
+        <div class="about__wrapper">
+          <img
+            src="./drawables/Portfolio Deepak/About final2.png"
+            alt="About image"
+            class="about__img"
+          />
+
+          <h6 class="sub1 about__text banner-text">
+            Hi , This is Deepak Kumar Gupta ( P.T ) here. I m BPT 3rd year Student of <span class="u-text-color-dark">&nbsp;University institute of health sciences (Kanpur).. </span><br /><br />
+            Here we treat our patients by physiotherapy with minimal drugs as per your conditions..  we also try to help you by changing your lifestyle through health, nutrition and ergonomics... Know the value and importance of physiotherapy instead of taking toxic drugs which spoils your health...that results decrease your life that leads to death.
+            <br /><br />
+            We believe that the quality of service offered  for our patients is paramount. We believe in connecting with you to solve problems and go beyond your immediate needs through working together, understanding and improving for your future.
+
+            <br />
+            <br />
+            "Let's not wait for perfect conditions to begin.<span class="u-text-color-blue">&nbsp; Let's begin</span>  to make perfection in conditions for a healthy physical condition."
+          </h6>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="testimonials u-section-padding" id="testimonials">
+      <div class="testimonials__inner">
+        <h4 class="h4 section-heading">Testimonials</h4>
+
+
+        <!-- Slideshow container -->
+
+        <div class="testimonial__wrapper-2 u-margin-top-8">
+          <div class="testimonials__icon-box testimonials__icon-box-hide" onclick="plusSlides(-1)">
+            <span class="iconify" data-icon="eva:arrow-ios-back-outline"></span>
+          </div>
+          <div class="slideshow-container">
+
+            <!-- <div class="test__container">
+               -->
+          
+               
+            
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides ">
+                <div class="testimonial-card" >
+                  <div class="testimonial-card__container">
+                    <img
+                      src="./drawables/Portfolio Deepak/003.JPG"
+                      alt="Testimonial-author"
+                      class="testimonial-card__img"
+                    />
+            
+                    <div class="testimonial-card__wrapper">
+                      <h4 class="h4 testimonial-card__author">Mrs Rajshree Gupta</h4>
+            
+                      <h5 class="h6 testimonial-card__post">Housewife</h5>
+            
+                      <h6 class="sub1 testimonial-card__content">
+                        I m Rajshree Gupta my age is 68 years old.. I have suffered from very severe problem i.e <span class="u-text-color-blue">Osteoarthritis</span>  since last 10-12 years finally Orthopaedic surgeons advised me to go for Total knee replacement... I have so much severe pain from this problem due to this I have totally lost my all daily life activities...but After taking the <span class="u-text-color-dark">3 months</span>   treatment of physiotherapy my life is totally changed now I have stopped all my medicines...since last 1 years I don't have any severe type of pain.. now I m able to doo all daily life activities....I m so happy now... Thanks a lot Dr. Deepak
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="mySlides fade">
+                <div class="testimonial-card test-2" >
+                  <div class="testimonial-card__container">
+                    <img
+                      src="./drawables/Portfolio Deepak/001 (2).JPG"
+                      alt="Testimonial-author"
+                      class="testimonial-card__img"
+                    />
+            
+                    <div class="testimonial-card__wrapper">
+                      <h4 class="h4 testimonial-card__author">Mr. Shitik Omar</h4>
+            
+                      <h5 class="h6 testimonial-card__post">Data Analyst</h5>
+            
+                      <h6 class="sub1 testimonial-card__content">
+                        I m Shitik Omar my age is 24 years old. Previously, I have suffered from severe <span class="u-text-color-blue">neck and back pain</span> , due to this I was unable to move my neck upside down, but thanks to Dr. Deepak's treatment, now I'm able to move my neck freely. It's a  <span class="u-text-color-dark"> seven-day </span>course treatment where Dr. Deepak cure my problem with some exercise for the neck and back.
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="mySlides fade">
+                <div class="testimonial-card" >
+                  <div class="testimonial-card__container">
+                    <img
+                      src="./drawables/Portfolio Deepak/002 (1).jpg"
+                      alt="Testimonial-author"
+                      class="testimonial-card__img"
+                    />
+            
+                    <div class="testimonial-card__wrapper">
+                      <h4 class="h4 testimonial-card__author">Mrs Reema Gupta</h4>
+            
+                      <h5 class="h6 testimonial-card__post">Coperate Employee</h5>
+            
+                      <h6 class="sub1 testimonial-card__content">
+                        I m Reema Gupta..my age is 35 years old. I have suffered from <span class="u-text-color-blue">groin pain</span>   and  <span class="u-text-color-blue">muscle stiffness</span>  on my lower limb since last 2 years... medicine did not work on my  problem... I have lost my all daily life activities including walking, sitting , sleeping etc...I have so much severe pain..but after taking <span class="u-text-color-dark">4 months</span>  treatment of physiotherapy now I m able to do all the daily life activities.. properly without any disturbance..Thanks a lot Dr. Deepak
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+              <div class="mySlides fade">
+                <div class="testimonial-card" >
+                  <div class="testimonial-card__container">
+                    <img
+                      src="./drawables/Portfolio Deepak/mami photu.jpg"
+                      alt="Testimonial-author"
+                      class="testimonial-card__img"
+                    />
+            
+                    <div class="testimonial-card__wrapper">
+                      <h4 class="h4 testimonial-card__author">Mrs Amita Agarwal</h4>
+            
+                      <h5 class="h6 testimonial-card__post">Housewife</h5>
+            
+                      <h6 class="sub1 testimonial-card__content">
+                        I m Amita Agarwal my age is 38 years old i have suffered from <span class="u-text-color-blue">varicose veins</span>  since last 6-8 years I have so much severe pain , swelling in my lower limb.. but after taking <span class="u-text-color-dark">1 month</span>  treatment of physiotherapy..now  I m totally free from pain and swelling.. it improves my lifestyle.. my daily life activities are normal.. Thanks to Dr. Deepak
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              
+            
+              <!-- Next and previous buttons -->
+              <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a> -->
+              
+              <!-- <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+              <!-- <div class="testimonials__icon-box u-rotate-180"  onclick="plusSlides(1)">
+                <span class="iconify" data-icon="eva:arrow-ios-back-outline"></span>
+              </div>
+            </div> -->
+            </div>
+            <div class="testimonials__icon-box testimonials__icon-box-hide u-rotate-180"  onclick="plusSlides(1)">
+              <span class="iconify" data-icon="eva:arrow-ios-back-outline"></span>
+        </div>
+
+
+<!-- The dots/circles -->
+
+      </div>
+      <div class="testimonials__dots-container u-margin-top-4">
+        <div style="text-align:center test2 u-margin-top-4">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+        <!-- Testimonial icon phone -->
+
+        <div class="testimonials__icon-phone">
+          <div class="testimonials__icon-box  testimonials__icon-box-phone u-same-width"  onclick="plusSlides(-1)">
+            <span class="sub1">&#8592; Previous</span>
+          </div>
+      
+          <div class="testimonials__icon-box testimonials__icon-box-phone u-margin-left-small u-same-width"  onclick="plusSlides(1)">
+            <span class="sub1">Next &#8594; </span>
+          </div>
+          </div>
+        </div>
+
+     
+
+
+      
+
+      
+    </section>
+    
+
+    <section class="contact u-section-padding" id="contact">
+      <div class="contact__inner">
+        <h4 class="h4 section-heading">Contact us</h4>
+
+        <div class="contact__wrapper">
+          <img
+            src="./drawables/Portfolio Deepak/Contact final99999.png"
+            alt="Contact Illustration"
+            class="contact__img"
+          />
+
+          <div class="contact-form" id="contact__form">
+            <div class="contact-form__input-box">
+              <label for="firstName" class="h6 contact-form__label">Name</label>
+
+              <div class="contact-form__double-input">
+                <input
+                  type="text"
+                  class="contact-form__input contact-form__input--half"
+                  placeholder="First Name"
+                  id="firstName" required
+                />
+
+                <input
+                  type="text"
+                  class="contact-form__input contact-form__input--half"
+                  placeholder="Last Name"
+                  id="lastName" required
+                />
+              </div>
+            </div>
+
+            <!-- Email Box -->
+
+            <div class="contact-form__input-box u-margin-top-4">
+              <label for="email" class="h6 contact-form__label">E-mail</label>
+
+              <input
+                type="email"
+                class="contact-form__input contact-form__input--full"
+                placeholder="Enter your E-mail"
+                id="email" required
+              />
+            </div>
+
+            <!-- Contact Box -->
+
+            <div class="contact-form__input-box u-margin-top-4">
+              <label for="contactNumber" class="h6 contact-form__label"
+                >Contact Number</label
+              >
+
+              <input
+                type="text"
+                class="contact-form__input contact-form__input--full"
+                placeholder="Enter your contact Number"
+                id="contactNumber" required
+              />
+            </div>
+
+            <!-- Queery Box -->
+
+            <div class="contact-form__input-box u-margin-top-4">
+              <label for="querryBox" class="h6 contact-form__label"
+                >Your Problem</label
+              >
+
+              <textarea
+                name="Text area"
+                id="querry"
+                class="contact-form__input contact-form__input--full"
+                cols="30"
+                rows="7"
+                placeholder="Describe your problem a bit"
+                id="querryBox"
+              ></textarea>
+            </div>
+            <a class="btn btn--primary button u-margin-top-4"  id="bookSession2">POST</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery u-section-padding">
+      <div class="gallery__inner">
+        <h4 class="h4 section-heading">Snap-wall</h4>
+
+        <div class="gallery__wrapper u-margin-top-8">
+          <div class="gallery__column-1">
+            <img
+              src="./drawables/Portfolio Deepak/gallery1.png"
+              alt="Gallery Image 1"
+              class="gallery__column-1--1"
+            />
+
+            <img
+              src="./drawables/Portfolio Deepak/Gallery5.png"
+              alt="Gallery Image 1"
+              class="gallery__column-1--2"
+            />
+          </div>
+
+          <!-- Coulmn 2 -->
+
+          <div class="gallery__column-2">
+            <img
+              src="./drawables/Portfolio Deepak/Gallery2.png"
+              alt="Gallery Image 1"
+              class="gallery__column-2--1"
+            />
+
+            <img
+              src="./drawables/Portfolio Deepak/Gallery6.png"
+              alt="Gallery Image 1"
+              class="gallery__column-2--2"
+            />
+          </div>
+
+          <!-- Coulmn 3 -->
+
+          <div class="gallery__column-3">
+            <div class="gallery__column-3__wrapper">
+              <img
+                src="./drawables/Portfolio Deepak/Gallery3.png"
+                alt="Gallery Image 1"
+                class="gallery__column-3--1"
+              />
+
+              <img
+                src="./drawables/Portfolio Deepak/Gallery4.png"
+                alt="Gallery Image 1"
+                class="gallery__column-3--2"
+              />
+            </div>
+
+            <img
+              src="./drawables/Portfolio Deepak/Gallery7.png"
+              alt="Gallery Image 1"
+              class="gallery__column-3--3"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="footer u-change-bg-color">
+      <div class="footer__inner">
+        <div class="footer__wrapper">
+          <div class="footer__copyright">
+              <p class="logo footer__logo">
+                Deepak Gupta
+              </p
+           </div>
+
+            <p class="footer__credentials">
+              All Copyrights reserved @Deepak Gupta PhysioTherapist
+            </p>
+          </div>
+
+          <div class="footer__social-links">
+            <p class="footer__text">Connect on Social Media</p>
+
+            <div class="footer__links-container">
+              <a href="https://www.facebook.com/profile.php?id=100006525182522" target="_blank"><img src="./drawables/Portfolio Deepak/fb.png" alt="Fb" class="footer__link footer__link--1"></a>
+              <a href="https://www.instagram.com/deepakgupta2187/" target="_blank"><img src="./drawables/Portfolio Deepak/Insta.png" alt="Instagram" class="footer__link footer__link--2"></a>
+              <a href="https://twitter.com/DeepakK32084551" target="_blank"><img src="./drawables/Portfolio Deepak/Twitter.png" alt="Fb" class="footer__link footer__link--3"></a>
+              <a href="https://www.linkedin.com/in/deepak-kumar-gupta-p-t-6a9064216/" target="_blank"><img src="./drawables/Portfolio Deepak/Linked-in.png" alt="Fb" class="footer__link footer__link--4"></a>
+            </div>
+          </div>
+        </div>
+
+        <p class="footer__developer">
+          Designed & Developed with ❤ by
+          <span class="u-signature">Piyush Agarwal</span>
+        </p>
+
+        <div class="footer__nishan">
+          <img src="./drawables/Portfolio Deepak/clipart224914.png" alt="Shyam baba nishan" class="footer__img">
+        </div>
+
+        <p class="footer__version">
+          Version 0.1.0 Beta
+        </p>
+      </div>
+    </section>
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+    <script src="script.js" async defer></script>
+    <script src="popup.js" async defer></script>
+    <script src="email.js" asyc defer></script>
+  </body>
+</html>
